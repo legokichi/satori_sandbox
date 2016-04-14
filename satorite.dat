@@ -1,0 +1,5 @@
+IDC_CHECK_CLIPBOARD,0
+IDC_EDIT1,@OnSatoriLoad\r\n\r\n*OnSatoriBoot\r\n$引数区切り追加【タブ】 \r\n$引数区切り追加【タブ】（バイト値,2）\r\n$引数区切り追加【タブ】（バイト値,3）\r\n$引数区切り追加【タブ】（バイト値,4）\r\n$引数区切り追加【タブ】（バイト値,5）\r\n\r\n@OnPlaySatoriteScript\r\n(call eq 0 0 0 0 1)\r\n\r\n@eq\r\n（when (A0)==(A1)\r\n     (when (is_empty (A2))!=1\r\n         (call eq (loop _eq (calc (Aの数)-1)))\r\n         1)\r\n     0）\r\n@_eq\r\n(A(_eqカウンタ))
+IDC_ERASE_AT_ESC,0
+IDC_LIKE_DICT,1
+IDC_SATORI,1
